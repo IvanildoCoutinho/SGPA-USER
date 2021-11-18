@@ -1,0 +1,18 @@
+{
+    "require": {
+        "league/plates": "^3.4",
+        "coffeecode/router": "^1.0",
+        "phpmailer/phpmailer": "^6.2",
+        "ext-json": "*",
+        "coffeecode/datalayer": "1.1.8",
+        "alexcrisbrito/php-crud": "1.0.0"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": ["app/config.php", "app/helpers.php"]
+    }
+}
