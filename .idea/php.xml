@@ -14,6 +14,7 @@
       <path value="$PROJECT_DIR$/vendor/bootstrap/js" />
       <path value="$PROJECT_DIR$/vendor/owl.carousel/assets" />
       <path value="$PROJECT_DIR$/vendor/alexcrisbrito/php-crud" />
+      <path value="$PROJECT_DIR$/vendor/abdulmueid/entity-reference" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

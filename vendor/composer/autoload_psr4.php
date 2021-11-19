@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'abdulmueid\\EntityReference\\' => array($vendorDir . '/abdulmueid/entity-reference/src'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
     'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
     'CoffeeCode\\Router\\' => array($vendorDir . '/coffeecode/router/src'),

@@ -5,8 +5,8 @@
         "phpmailer/phpmailer": "^6.2",
         "ext-json": "*",
         "coffeecode/datalayer": "1.1.8",
-        "alexcrisbrito/php-crud": "1.0.0"
-
+        "alexcrisbrito/php-crud": "1.0.0",
+        "abdulmueid/entity-reference": "1.0.0"
     },
 
     "autoload": {

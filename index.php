@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 use CoffeeCode\Router\Router;
 
 
@@ -14,15 +16,15 @@ $router->namespace("App\Controllers");
  */
 $router->group(null);
 $router->get("/", "Pages:index", "web.index");
-$router->get("/pedido", "Pages:request", "web.request");
-
+$router->get("/pedidos", "Pages:request", "web.request");
+$router->get("/pedido/{code}", "Pages:request_track", "web.track");
 
 /**
  * Forms routes
  */
 
-$router->post("/make_request", "Request:make_request" , "make.request");
-$router->post("/contact", "Forms:contact", "submit.contact");
+$router->post("/make_request", "Request:make_request" , "request.make");
+$router->post("/track_request", "Request:get", "request.track");
 
 
 /**

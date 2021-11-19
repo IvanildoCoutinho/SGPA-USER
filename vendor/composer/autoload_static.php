@@ -12,6 +12,10 @@ class ComposerStaticInitb92d0e328f77943987691babd98bf61e
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'abdulmueid\\EntityReference\\' => 27,
+        ),
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
@@ -33,6 +37,10 @@ class ComposerStaticInitb92d0e328f77943987691babd98bf61e
     );
 
     public static $prefixDirsPsr4 = array (
+        'abdulmueid\\EntityReference\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/abdulmueid/entity-reference/src',
+        ),
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',

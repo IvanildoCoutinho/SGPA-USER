@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "954566a2d1cd96ee2fe4dd7b0fc0adad",
+    "content-hash": "a981e333ca9c2ce873b7f3598f7ab52a",
     "packages": [
+        {
+            "name": "abdulmueid/entity-reference",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abdulmueid/entity-reference.git",
+                "reference": "bdb6470a8e9cc9b3afc61824d958f17c6400718e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abdulmueid/entity-reference/zipball/bdb6470a8e9cc9b3afc61824d958f17c6400718e",
+                "reference": "bdb6470a8e9cc9b3afc61824d958f17c6400718e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "abdulmueid\\EntityReference\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abdul Mueid Akhtar",
+                    "email": "abdul.mueid@gmail.com"
+                }
+            ],
+            "description": "Entity-Reference Generator for SIMO Banking System (Mozambique)",
+            "support": {
+                "issues": "https://github.com/abdulmueid/entity-reference/issues",
+                "source": "https://github.com/abdulmueid/entity-reference/tree/1.0.0"
+            },
+            "time": "2020-07-28T19:45:51+00:00"
+        },
         {
             "name": "alexcrisbrito/php-crud",
             "version": "v1.0.0",
@@ -314,5 +354,5 @@
         "ext-json": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }

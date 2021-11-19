@@ -1,7 +1,7 @@
 <?php
 
 define("SITE", [
-    "root" => "http://localhost/spd",
+    "root" => "http://sgpa-user.test",
     "site_name" => "Sistema de Pedido de certificado"
 ]);
 
@@ -9,7 +9,7 @@ define("DB_CONFIG", [
     "driver" => "mysql",
     "host" => "localhost",
     "port" => "3306",
-    "dbname" => "sred",
+    "dbname" => "sgre",
     "username" => "root",
     "passwd" => "",
     "options" => [

@@ -17,6 +17,7 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/bootstrap/js" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/owl.carousel/assets" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/alexcrisbrito/php-crud" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/abdulmueid/entity-reference" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
