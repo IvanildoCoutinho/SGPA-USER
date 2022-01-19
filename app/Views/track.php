@@ -51,6 +51,35 @@
                     </div>
                 </div>
 
+                <?php if ($request->status == 1): ?>
+                    <div class="col-12 pt-5 px-auto text-dark">
+                        <h4 class="font-weight-bolder text-center"><i class="fa fa-upload"></i> Enviar comprovativo de
+                            pagamento</h4>
+
+                        <form action="<?= $router->route("request.track") ?>" method="POST">
+
+                            <div class="pt-4">
+                                <div class="form-group">
+                                    <label class="text-left">Fotografia ou PDF</label>
+                                    <input type="file" accept="application/pdf, image/jpg, image/png"
+                                           name="request_id" class="form-control rounded shadow-sm">
+                                </div>
+
+                                <p>* No caso de enviar uma imagem, esta deve estar muito bem visível <br> * Os ficheiros não pode exceder os 5 MB</p>
+
+                                <div class="col-lg-12 pt-2 text-center">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-success">
+                                            Enviar &nbsp;<i class="fa fa-check-circle"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                <?php endif; ?>
+
             </div>
         </section>
     </main>
